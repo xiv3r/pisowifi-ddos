@@ -9,4 +9,6 @@ pkg update && pkg upgrade -y && pkg install python3 -y && git clone https://gith
 ```
 python3 ddos.py -t 10.0.0.1 -p 80 -t 135
 ```
-
+<div align="center">
+<img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/logs.png">
+</div>
