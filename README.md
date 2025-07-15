@@ -12,13 +12,17 @@
 ```
 pkg update && pkg upgrade -y
 ```
+```
 pkg install git python python-pip -y
+```
 ```
 git clone https://github.com/xiv3r/pisowifi-ddos.git
 ```
+```
 cd pisowifi-ddos
 ```
-python3 ddos.py -h
+```
+python3 ddos.py
 ```
 
 # Auto Install
