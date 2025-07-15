@@ -10,7 +10,7 @@
 
 # Auto Install
 ```
-pkg update && pkg upgrade -y && pkg install python3 -y && git clone https://github.com/xiv3r/pisowifi-ddos && cd pisowifi-ddos && python3 ddos.py
+pkg update && pkg upgrade -y && pkg install git python python-pip -y && git clone https://github.com/xiv3r/pisowifi-ddos && cd pisowifi-ddos && python3 ddos.py
 ```
 
 # Run
