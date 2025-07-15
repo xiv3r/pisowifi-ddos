@@ -7,7 +7,7 @@ Pisowifi 502 Bad Gateway and take down captive portal.
 
 # Installation
 ```
-pkg update && pkg upgrade -y && pkg install python3 -y && git clone https://github.com/xiv3r/pisowifi-ddos && cd pisowifi-ddos
+pkg update && pkg upgrade -y && pkg install python3 -y && git clone https://github.com/xiv3r/pisowifi-ddos && cd pisowifi-ddos && python3 ddos.py
 ```
 # Run
 ```
