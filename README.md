@@ -1,5 +1,9 @@
 # Pisowifi DDOS
-Pisowifi 502 10.0.0.1 Gateway Error and take down captive portal.
+Pisowifi 502 Bad Gateway and take down captive portal.
+
+<div align="center">
+<img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/gw.png">
+</div>
 
 # Installation
 ```
