@@ -90,10 +90,12 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Pisowifi DDOS attack tool
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	print (''' \033[92m	
+ Pisowifi DDOS attack tool
+ 
+     Misuse may result in severe legal penalties, including fines and imprisonment. Always obtain explicit permission before testing any system. By using this tool, you agree to comply with all applicable laws and assume full responsibility for your actions. \n
+	
+ usage : python3 ddos.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
