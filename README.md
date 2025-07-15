@@ -2,7 +2,7 @@
 Pisowifi 502 Bad Gateway and take down captive portal.
 
 <div align="center">
-<img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/gw.png">
+<img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/proof.png">
 </div>
 
 # Installation
