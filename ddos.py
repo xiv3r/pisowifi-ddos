@@ -101,7 +101,7 @@ By using this tool, you agree to comply with all applicable laws and assume full
 	-h : help
 	-s : server ip
 	-p : port default 80
-	-t : turbo default 135 \033[0m''')
+	-t : turbo default 3500 \033[0m''')
 	sys.exit()
 
 
@@ -114,7 +114,7 @@ def get_parameters():
 	optp.add_option("-q","--quiet", help="set logging to ERROR",action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
 	optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
 	optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
-	optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 135 -t 135")
+	optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 3500 -t 3500")
 	optp.add_option("-h","--help",dest="help",action='store_true',help="help you")
 	opts, args = optp.parse_args()
 	logging.basicConfig(level=opts.loglevel,format='%(levelname)-8s %(message)s')
@@ -129,7 +129,7 @@ def get_parameters():
 	else:
 		port = opts.port
 	if opts.turbo is None:
-		thr = 135
+		thr = 3500
 	else:
 		thr = opts.turbo
 
