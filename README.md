@@ -1,12 +1,11 @@
 # Pisowifi DDOS
-10.0.0.1 = 502 Bad Gateway Error
 
 <div align="center">
 <img src="https://github.com/xiv3r/pisowifi-ddos/blob/main/image/proof.png">
 </div>
 
 # Requirements
-- Termux
+- [Termux](https://github.com/termux/termux-app/releases)
 
 # Manual Install
 <details><summary> Expand
