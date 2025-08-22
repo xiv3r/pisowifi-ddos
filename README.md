@@ -34,7 +34,7 @@ python ddos.py
 # Auto Install
 Termux
 ```
-pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/xiv3r/pisowifi-ddos.git && chmod 755 pisowifi-ddos/ddos.py && cd pisowifi-ddos && ls
+pkg update && pkg upgrade -y && pkg install git python -y && git clone https://github.com/xiv3r/pisowifi-ddos.git && chmod 755 pisowifi-ddos/*.py && cd pisowifi-ddos && ls
 ```
 
 <details><summary> Kali
